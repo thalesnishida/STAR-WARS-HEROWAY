@@ -1,0 +1,272 @@
+.portifolio{
+    width: 100vw;
+    height: 100%;
+
+    margin-bottom: 1rem;
+}
+
+.portifolio .portifolio-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portifolio .portifolio-1 img, .portifolio .portifolio-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.portifolio .portifolio-1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0.5rem;
+    color: rgb(116, 115, 115);
+}
+
+.portifolio .portifolio-1 .text-folio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portifolio .portifolio-1 .line-portifolio {
+    height: 0.4rem;
+    width: 7rem;
+    background-color: yellow;
+}
+.portifolio .portifolio-2 h4,.portifolio .portifolio-2 h4{
+    letter-spacing: 0.1rem;
+    padding: 0 0.5rem;
+    font-size: larger;
+}
+.portifolio .portifolio-2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0.5rem;
+    font-size: large;
+}
+
+.portifolio .portifolio-2 .item-1 .text p{
+    padding-left: 0.5rem;
+    font-size: large;
+}
+.portifolio .portifolio-2 .item-1{
+    text-align: start;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #121212;
+}
+.portifolio .portifolio-2 .item-2 {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ffff;
+    background-color: #121212;
+}
+
+.portifolio .portifolio-2 .item-2 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.portifolio .portifolio-2 .item-1 .text .line-1 {
+    margin-left: 0.5rem;
+}
+.portifolio .portifolio-2 .item-2 .text .line-2 {
+    margin-right: 0.5rem;
+}
+.portifolio .portifolio-2 .item-1 .line-1, .portifolio .portifolio-2 .item-2 .line-2{
+    width: 4rem;
+    height: 0.2rem;
+    background-color: yellow;
+    margin-top: 0;
+   
+}
+@media (min-width: 768px){
+    .portifolio .portifolio-1 .text-folio .text-portifolio-1 h3{
+        font-size: x-large;
+        letter-spacing: 0.2rem;
+    }
+
+    .portifolio .portifolio-1 {
+        flex-direction: row;
+    }
+    
+    .portifolio .portifolio-1 img {
+        width: 30rem;
+    }
+
+    .portifolio .portifolio-1 .text-folio {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .portifolio .portifolio-1 .text-folio .line-portifolio {
+        width: 0.8rem;
+        height: 7rem;
+    }
+
+    .portifolio .portifolio-1 .text-folio .text-portifolio{
+        text-align: justify;
+    }
+
+    .portifolio .portifolio-1 .text-folio .text-portifolio h3{
+        padding-left: 0.7rem;
+    }
+
+    .portifolio .portifolio-2 .item-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .portifolio .portifolio-2 .item-1 .text{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        align-items: flex-start;
+    }
+
+    .portifolio .portifolio-2 .item-1 .text h4, .portifolio .portifolio-2 .item-2 .text h4{
+        padding: 0;
+    }
+
+    .portifolio .portifolio-2 .item-2 .text{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: start;
+        padding: 2rem;
+    }
+    .portifolio .portifolio-2 .item-2 .text p{
+        padding: 0;
+    }
+    .portifolio .portifolio-2 .item-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        direction: rtl;
+    }
+
+    .portifolio .portifolio-2 .item-1 .line-two, .portifolio .portifolio-2 .item-2 .line-two {
+        width: 6rem;
+        background-color: yellow;
+        height: 0.2rem;
+        margin-top: 1rem;
+    }
+
+    .portifolio .portifolio-2 .item-1 .text .line-1, .portifolio .portifolio-2 .item-2 .text .line-2{
+        display: none;
+    }
+    
+}
+/* @media (min-width: 960px){
+    .portifolio .portifolio-2 .item-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .portifolio .portifolio-2 .item-1 .text{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        align-items: flex-start;
+    }
+
+    .portifolio .portifolio-2 .item-1 .text h4, .portifolio .portifolio-2 .item-2 .text h4{
+        padding: 0;
+    }
+
+    .portifolio .portifolio-2 .item-2 .text{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: start;
+        padding: 2rem;
+    }
+    .portifolio .portifolio-2 .item-2 .text p{
+        padding: 0;
+    }
+    .portifolio .portifolio-2 .item-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        direction: rtl;
+    }
+
+    .portifolio .portifolio-2 .item-1 .line-two, .portifolio .portifolio-2 .item-2 .line-two {
+        width: 6rem;
+        background-color: yellow;
+        height: 0.2rem;
+        margin-top: 1rem;
+    }
+
+    .portifolio .portifolio-2 .item-1 .text .line-1, .portifolio .portifolio-2 .item-2 .text .line-2{
+        display: none;
+    }
+} */
+
+@media (min-width: 1200px) {
+    .portifolio .portifolio-1 {
+        flex-direction: row;
+    }
+    
+    .portifolio .portifolio-1 img {
+        width: 70%;
+    }
+
+    .portifolio .portifolio-1 .text-folio {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .portifolio .portifolio-1 .text-folio .line-portifolio {
+        width: 0.8rem;
+        height: 7rem;
+    }
+
+    .portifolio .portifolio-1 .text-folio .text-portifolio-1{
+        text-align: start;
+        font-size: 2rem;
+        margin-left: 2rem;
+        max-width: 35rem;
+    
+    }
+
+    .portifolio .portifolio-1 .text-folio .text-portifolio-1 h3{
+        padding-left: 0.7rem;
+    }
+
+    .portifolio .portifolio-2 .item-1 .text p{
+        font-size: 2rem;
+        padding:0;
+    }
+
+    .portifolio .portifolio-1 .text-folio .line-portifolio{
+        height: 15rem;
+    }
+    .portifolio .portifolio-2 .item-1 .text {
+        max-width: 50rem;
+        padding: auto;
+    }
+    .portifolio .portifolio-2 .item-1 .text h4, .portifolio .portifolio-2 .item-2 .text h4{
+        font-size: 3rem;
+    }
+
+    .portifolio .portifolio-2 .item-2 .text p{
+        font-size: 2rem;
+    }
+}
