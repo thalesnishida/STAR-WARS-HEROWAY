@@ -78,7 +78,7 @@
         width: 100%;
     }
     .subscribe .main-subscribe .title-subscribe{
-        font-size: 4rem;
+        font-size: 2rem;
         font-family: monospace;
         font-weight: 100;
     }
@@ -91,14 +91,14 @@
     }
 
     .subscribe .main-subscribe .subscribe-container input{
-        height: 5rem;
-        width: 65%;
+        height: 4rem;
+        width: 100%;
         margin-right: 1rem;
         padding:2rem
     }
 
     .subscribe-container button{
-        height: 5rem;
+        height: 4rem;
         font-size: 1rem;
         width: 100%;
     }

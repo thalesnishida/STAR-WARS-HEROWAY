@@ -240,7 +240,7 @@
 
     .portifolio .portifolio-1 .text-folio .text-portifolio-1{
         text-align: start;
-        font-size: 2rem;
+        font-size: 1rem;
         margin-left: 2rem;
         max-width: 35rem;
     
@@ -251,7 +251,7 @@
     }
 
     .portifolio .portifolio-2 .item-1 .text p{
-        font-size: 2rem;
+        font-size: 1rem;
         padding:0;
     }
 
@@ -267,6 +267,6 @@
     }
 
     .portifolio .portifolio-2 .item-2 .text p{
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }

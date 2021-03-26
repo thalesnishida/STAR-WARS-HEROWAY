@@ -164,32 +164,34 @@ margin-bottom: 1rem;
 
   @media (min-width: 1200px){
     .menu .menu-wrap {
-      font-size: x-large;
+      font-size: large;
     }
 
     .menu .menu-wrap .logo{
-      font-size: 2rem;
+      font-size: 1rem;
     }
     
 
     .masterhead .main .main-text h1{
-      font-size: 11rem;
-      line-height: 9rem;
+      font-size: 5rem;
+      line-height: 4rem;
     }
 
     .masterhead .main .main-text p {
-      margin-top: 3rem;
-      font-size: x-large;
+      margin-top: 6rem;
+      font-size: large;
       padding: 0 10rem;
     }
 
     .masterhead .main button{
-      width: 30%;
-      height: 6rem;
+      width: 20%;
+      height: 3rem;
+      font-size: large;
+      text-align: center;
     }
 
     .masterhead .main .main-text{
-      margin: 0;
+      margin: 1rem;
     }
   }
 
